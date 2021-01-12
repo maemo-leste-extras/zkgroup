@@ -1,0 +1,16 @@
+Source: zkgroup
+Section: user/network
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper (>= 10),
+ cargo,
+Standards-Version: 4.3.0
+Homepage: https://github.com/SignalApp/zkgroup
+Vcs-Git: https://github.com/maemo-leste-extras/zkgroup
+Vcs-Browser: https://github.com/maemo-leste-extras/zkgroup
+
+Package: libzkgroup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Library for the Signal Private Group System (dep for signald)
