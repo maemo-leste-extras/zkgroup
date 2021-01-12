@@ -5,6 +5,7 @@ Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends:
  debhelper (>= 10),
  cargo,
+ ca-certificates,
  g++,
 Standards-Version: 4.3.0
 Homepage: https://github.com/SignalApp/zkgroup
